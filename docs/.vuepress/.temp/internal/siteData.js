@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"Namachokoretomusu 指令文档\",\"description\":\"Namachokoretomusu QQ 机器人指令表\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Namachokoretomusu 指令文档\",\"description\":\"Namachokoretomusu QQ 机器人指令表\"}}}")

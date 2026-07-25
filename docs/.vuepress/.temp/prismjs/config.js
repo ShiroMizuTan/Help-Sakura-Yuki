@@ -1,0 +1,5 @@
+import "F:/Documents/Default Project/namachoko-docs/node_modules/@vuepress/highlighter-helper/dist/client/styles/base.css"
+import "F:/Documents/Default Project/namachoko-docs/node_modules/@vuepress/plugin-prismjs/dist/client/styles/nord.css"
+import "F:/Documents/Default Project/namachoko-docs/node_modules/@vuepress/highlighter-helper/dist/client/styles/line-numbers.css"
+import "F:/Documents/Default Project/namachoko-docs/node_modules/@vuepress/highlighter-helper/dist/client/styles/notation-highlight.css"
+import "F:/Documents/Default Project/namachoko-docs/node_modules/@vuepress/highlighter-helper/dist/client/styles/code-block-title.css"
