@@ -18,6 +18,7 @@ export default defineUserConfig({
       { text: '更新日志', link: '/guide/changelog' },
       { text: '商店与背包', link: '/guide/shop' },
       { text: '情侣与关系', link: '/guide/relationship' },
+      { text: '图片', link: '/guide/image' },
     ],
     sidebar: [
       { text: '介绍', link: '/' },
@@ -31,6 +32,7 @@ export default defineUserConfig({
           '/guide/changelog',
           '/guide/shop',
           '/guide/relationship',
+          '/guide/image',
         ],
       },
     ],

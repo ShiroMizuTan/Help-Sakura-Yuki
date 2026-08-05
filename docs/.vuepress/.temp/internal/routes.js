@@ -7,6 +7,7 @@ export const routes = Object.fromEntries([
   ["/guide/checkin.html", { loader: () => import(/* webpackChunkName: "guide_checkin.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/checkin.md"), meta: {"title":"签到与资料"} }],
   ["/guide/feedback.html", { loader: () => import(/* webpackChunkName: "guide_feedback.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/feedback.md"), meta: {"title":"反馈"} }],
   ["/guide/greetings.html", { loader: () => import(/* webpackChunkName: "guide_greetings.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/greetings.md"), meta: {"title":"问候语管理"} }],
+  ["/guide/image.html", { loader: () => import(/* webpackChunkName: "guide_image.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/image.md"), meta: {"title":"图片"} }],
   ["/guide/relationship.html", { loader: () => import(/* webpackChunkName: "guide_relationship.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/relationship.md"), meta: {"title":"情侣与关系"} }],
   ["/guide/shop.html", { loader: () => import(/* webpackChunkName: "guide_shop.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/shop.md"), meta: {"title":"商店与背包"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"F:/Documents/Default Project/namachoko-docs/docs/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
