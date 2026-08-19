@@ -8,6 +8,7 @@ export const routes = Object.fromEntries([
   ["/guide/feedback.html", { loader: () => import(/* webpackChunkName: "guide_feedback.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/feedback.md"), meta: {"title":"反馈"} }],
   ["/guide/greetings.html", { loader: () => import(/* webpackChunkName: "guide_greetings.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/greetings.md"), meta: {"title":"问候语管理"} }],
   ["/guide/help.html", { loader: () => import(/* webpackChunkName: "guide_help.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/help.md"), meta: {"title":"帮助、呼叫与程序状态"} }],
+  ["/guide/holodori.html", { loader: () => import(/* webpackChunkName: "guide_holodori.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/holodori.md"), meta: {"title":"Holodori / hololive 偶像资料"} }],
   ["/guide/image.html", { loader: () => import(/* webpackChunkName: "guide_image.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/image.md"), meta: {"title":"图片"} }],
   ["/guide/quotes.html", { loader: () => import(/* webpackChunkName: "guide_quotes.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/quotes.md"), meta: {"title":"群语录"} }],
   ["/guide/relationship.html", { loader: () => import(/* webpackChunkName: "guide_relationship.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/relationship.md"), meta: {"title":"情侣与关系"} }],
