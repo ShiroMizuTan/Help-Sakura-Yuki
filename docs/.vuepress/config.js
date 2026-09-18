@@ -22,6 +22,7 @@ export default defineUserConfig({
           { text: '情侣与关系', link: '/guide/relationship' },
           { text: '群语录', link: '/guide/quotes' },
           { text: '图片', link: '/guide/image' },
+          { text: '随机色图', link: '/guide/setu' },
           { text: '商店与背包', link: '/guide/shop' },
           { text: '问候语管理', link: '/guide/greetings' },
           { text: '反馈', link: '/guide/feedback' },
@@ -52,6 +53,7 @@ export default defineUserConfig({
           '/guide/relationship',
           '/guide/quotes',
           '/guide/image',
+          '/guide/setu',
         ],
       },
       {
