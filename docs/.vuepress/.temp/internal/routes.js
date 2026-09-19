@@ -2,6 +2,7 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"F:/Documents/Default Project/namachoko-docs/docs/README.md"), meta: {"title":"首页"} }],
+  ["/guide/ai.html", { loader: () => import(/* webpackChunkName: "guide_ai.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/ai.md"), meta: {"title":"AI 对话"} }],
   ["/guide/arcade.html", { loader: () => import(/* webpackChunkName: "guide_arcade.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/arcade.md"), meta: {"title":"街机厅"} }],
   ["/guide/changelog.html", { loader: () => import(/* webpackChunkName: "guide_changelog.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/changelog.md"), meta: {"title":"更新日志"} }],
   ["/guide/checkin.html", { loader: () => import(/* webpackChunkName: "guide_checkin.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/checkin.md"), meta: {"title":"签到与账号"} }],

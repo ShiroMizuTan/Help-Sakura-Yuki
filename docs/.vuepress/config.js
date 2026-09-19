@@ -15,6 +15,7 @@ export default defineUserConfig({
         text: '指令指南',
         children: [
           { text: '帮助与呼叫', link: '/guide/help' },
+          { text: 'AI 对话', link: '/guide/ai' },
           { text: '签到与账号', link: '/guide/checkin' },
           { text: '街机厅', link: '/guide/arcade' },
           { text: '舞萌 DX', link: '/guide/maimai' },
@@ -36,6 +37,7 @@ export default defineUserConfig({
         text: '基础功能',
         children: [
           '/guide/help',
+          '/guide/ai',
           '/guide/checkin',
         ],
       },
