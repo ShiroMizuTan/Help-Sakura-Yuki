@@ -23,8 +23,8 @@ features:
     details: 查询 hololive 偶像资料、卡牌、歌曲和剧情
   - title: 社交互动
     details: 情侣关系、群语录收录与点赞、随机图片
-  - title: 商店系统
-    details: 购买和使用物品，管理背包
+  - title: 金币与游戏
+    details: 商店购买与背包、转账赠送与金币榜、猜大小押注、刮刮乐抽奖
 ---
 
 ## 快速开始

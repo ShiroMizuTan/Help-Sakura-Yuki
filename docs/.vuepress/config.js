@@ -26,6 +26,8 @@ export default defineUserConfig({
           { text: '随机色图', link: '/guide/setu' },
           { text: '搜图', link: '/guide/sauce' },
           { text: '商店与背包', link: '/guide/shop' },
+          { text: '经济流转', link: '/guide/economy' },
+          { text: '猜大小', link: '/guide/guessgame' },
           { text: '问候语管理', link: '/guide/greetings' },
           { text: '反馈', link: '/guide/feedback' },
           { text: '更新日志', link: '/guide/changelog' },
@@ -61,9 +63,16 @@ export default defineUserConfig({
         ],
       },
       {
-        text: '其他功能',
+        text: '金币与游戏',
         children: [
           '/guide/shop',
+          '/guide/economy',
+          '/guide/guessgame',
+        ],
+      },
+      {
+        text: '其他功能',
+        children: [
           '/guide/greetings',
           '/guide/feedback',
           '/guide/changelog',
