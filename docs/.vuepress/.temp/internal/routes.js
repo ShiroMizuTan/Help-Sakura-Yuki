@@ -14,6 +14,7 @@ export const routes = Object.fromEntries([
   ["/guide/maimai.html", { loader: () => import(/* webpackChunkName: "guide_maimai.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/maimai.md"), meta: {"title":"舞萌 DX（maimai）"} }],
   ["/guide/quotes.html", { loader: () => import(/* webpackChunkName: "guide_quotes.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/quotes.md"), meta: {"title":"群语录"} }],
   ["/guide/relationship.html", { loader: () => import(/* webpackChunkName: "guide_relationship.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/relationship.md"), meta: {"title":"情侣与关系"} }],
+  ["/guide/sauce.html", { loader: () => import(/* webpackChunkName: "guide_sauce.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/sauce.md"), meta: {"title":"搜图"} }],
   ["/guide/setu.html", { loader: () => import(/* webpackChunkName: "guide_setu.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/setu.md"), meta: {"title":"随机色图"} }],
   ["/guide/shop.html", { loader: () => import(/* webpackChunkName: "guide_shop.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/shop.md"), meta: {"title":"商店与背包"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"F:/Documents/Default Project/namachoko-docs/docs/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
