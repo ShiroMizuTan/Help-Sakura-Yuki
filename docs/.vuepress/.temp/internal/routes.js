@@ -6,6 +6,7 @@ export const routes = Object.fromEntries([
   ["/guide/arcade.html", { loader: () => import(/* webpackChunkName: "guide_arcade.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/arcade.md"), meta: {"title":"街机厅"} }],
   ["/guide/changelog.html", { loader: () => import(/* webpackChunkName: "guide_changelog.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/changelog.md"), meta: {"title":"更新日志"} }],
   ["/guide/checkin.html", { loader: () => import(/* webpackChunkName: "guide_checkin.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/checkin.md"), meta: {"title":"签到与账号"} }],
+  ["/guide/chu2.html", { loader: () => import(/* webpackChunkName: "guide_chu2.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/chu2.md"), meta: {"title":"中二节奏（CHUNITHM）"} }],
   ["/guide/economy.html", { loader: () => import(/* webpackChunkName: "guide_economy.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/economy.md"), meta: {"title":"经济流转"} }],
   ["/guide/feedback.html", { loader: () => import(/* webpackChunkName: "guide_feedback.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/feedback.md"), meta: {"title":"反馈"} }],
   ["/guide/greetings.html", { loader: () => import(/* webpackChunkName: "guide_greetings.html" */"F:/Documents/Default Project/namachoko-docs/docs/guide/greetings.md"), meta: {"title":"问候语管理"} }],

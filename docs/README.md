@@ -19,6 +19,8 @@ features:
     details: 查询街机厅人数，上报和追踪人流变化
   - title: 舞萌 DX
     details: 搜索歌曲、查看成绩、Best50、定数表和牌子进度
+  - title: 中二节奏
+    details: 搜索中二歌曲、查看谱面、Best30、Selection 和全部成绩
   - title: Holodori
     details: 查询 hololive 偶像资料、卡牌、歌曲和剧情
   - title: 社交互动

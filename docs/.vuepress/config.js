@@ -21,6 +21,7 @@ export default defineUserConfig({
           { text: '消息管理', link: '/guide/message' },
           { text: '街机厅', link: '/guide/arcade' },
           { text: '舞萌 DX', link: '/guide/maimai' },
+          { text: '中二节奏', link: '/guide/chu2' },
           { text: 'Holodori', link: '/guide/holodori' },
           { text: '情侣与关系', link: '/guide/relationship' },
           { text: '群语录', link: '/guide/quotes' },
@@ -52,6 +53,7 @@ export default defineUserConfig({
         children: [
           '/guide/arcade',
           '/guide/maimai',
+          '/guide/chu2',
           '/guide/holodori',
         ],
       },
