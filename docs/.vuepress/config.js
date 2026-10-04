@@ -17,6 +17,8 @@ export default defineUserConfig({
           { text: '帮助与呼叫', link: '/guide/help' },
           { text: 'AI 对话', link: '/guide/ai' },
           { text: '签到与账号', link: '/guide/checkin' },
+          { text: '资料与头像', link: '/guide/profile' },
+          { text: '消息管理', link: '/guide/message' },
           { text: '街机厅', link: '/guide/arcade' },
           { text: '舞萌 DX', link: '/guide/maimai' },
           { text: 'Holodori', link: '/guide/holodori' },
@@ -42,6 +44,7 @@ export default defineUserConfig({
           '/guide/help',
           '/guide/ai',
           '/guide/checkin',
+          '/guide/profile',
         ],
       },
       {
@@ -60,6 +63,7 @@ export default defineUserConfig({
           '/guide/image',
           '/guide/setu',
           '/guide/sauce',
+          '/guide/message',
         ],
       },
       {
